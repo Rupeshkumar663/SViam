@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">How the starter works</title>
+  <desc id="desc">This GitHub take-home is separate from the Maya interview. The browser editor, local LiveKit server, and Node.js agent run on your laptop. The starter agent reads code. You add highlighting aligned with speech, direct code editing, and execution, keeping each action tied to the correct code version. A personal portal key connects the agent to SViam's metered gateway for Deepgram, OpenAI, and ElevenLabs. The pack provides ten dollars per provider, thirty dollars total, for five days. No deployment is required.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 2 8 5 2 8" fill="none" stroke="#737373" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #242424; }
+      .title { font-size: 28px; font-weight: 700; }
+      .name { font-size: 22px; font-weight: 700; text-anchor: middle; }
+      .detail { font-size: 18px; fill: #5c5c5c; }
+      .section { font-size: 18px; font-weight: 700; }
+      .box { fill: #ffffff; stroke: #bdbdbd; stroke-width: 1; }
+      .line { fill: none; stroke: #737373; stroke-width: 1.5; stroke-linejoin: round; }
+      .duplex { marker-start: url(#arrow); marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="960" height="520" fill="#ffffff"/>
+  <text x="32" y="43" class="title">How it works</text>
+  <text x="928" y="42" class="detail" text-anchor="end">Local setup · no deployment</text>
+
+  <text x="48" y="94" class="section">On your laptop</text>
+
+  <rect x="48" y="120" width="192" height="100" rx="8" class="box"/>
+  <text x="144" y="162" class="name">Code editor</text>
+  <text x="144" y="193" class="detail" text-anchor="middle">Browser</text>
+
+  <rect x="384" y="120" width="192" height="100" rx="8" class="box"/>
+  <text x="480" y="162" class="name">LiveKit</text>
+  <text x="480" y="193" class="detail" text-anchor="middle">Local server</text>
+
+  <rect x="720" y="120" width="192" height="100" rx="8" class="box"/>
+  <text x="816" y="162" class="name">AI agent</text>
+  <text x="816" y="193" class="detail" text-anchor="middle">Node.js</text>
+
+  <text x="312" y="138" class="detail" text-anchor="middle">Audio</text>
+  <path d="M252 152H372" class="line duplex"/>
+  <text x="312" y="188" class="detail" text-anchor="middle">Code + text</text>
+  <path d="M252 202H372" class="line duplex"/>
+  <text x="648" y="138" class="detail" text-anchor="middle">Audio</text>
+  <path d="M588 152H708" class="line duplex"/>
+  <text x="648" y="188" class="detail" text-anchor="middle">Code + text</text>
+  <path d="M588 202H708" class="line duplex"/>
+
+  <text x="48" y="269" class="detail">You add: highlight while speaking · edit · run</text>
+
+  <path d="M816 232V316H622" class="line duplex"/>
+  <text x="690" y="294" class="detail">API calls</text>
+  <rect x="350" y="284" width="260" height="68" rx="8" class="box"/>
+  <text x="480" y="313" class="section" text-anchor="middle">SViam API access</text>
+  <text x="480" y="339" class="detail" text-anchor="middle">US$10 each · five days</text>
+  <path d="M480 352V370" class="line"/>
+  <text x="48" y="345" class="section">Online voice APIs</text>
+  <text x="912" y="345" class="detail" text-anchor="end">One personal key</text>
+  <path d="M144 370H816" class="line"/>
+  <circle cx="480" cy="370" r="2.5" fill="#737373"/>
+  <path d="M144 370V394" class="line" marker-end="url(#arrow)"/>
+  <path d="M480 370V394" class="line" marker-end="url(#arrow)"/>
+  <path d="M816 370V394" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="48" y="402" width="192" height="92" rx="8" class="box"/>
+  <text x="144" y="440" class="name">Deepgram</text>
+  <text x="144" y="471" class="detail" text-anchor="middle">Speech → text</text>
+
+  <rect x="384" y="402" width="192" height="92" rx="8" class="box"/>
+  <text x="480" y="440" class="name">OpenAI</text>
+  <text x="480" y="471" class="detail" text-anchor="middle">Generate reply</text>
+
+  <rect x="720" y="402" width="192" height="92" rx="8" class="box"/>
+  <text x="816" y="440" class="name">ElevenLabs</text>
+  <text x="816" y="471" class="detail" text-anchor="middle">Text → speech</text>
+</svg>

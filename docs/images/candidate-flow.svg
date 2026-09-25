@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="244" viewBox="0 0 960 244" role="img" aria-labelledby="title desc">
+  <title id="title">Your steps</title>
+  <desc id="desc">Activate and download your setup pack in the portal, accept the private GitHub invitation, run the starter locally, add the three features, demo and test them, then open a pull request ready for review. The work and demo run locally.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 2 8 5 2 8" fill="none" stroke="#737373" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #242424; }
+      .title { font-size: 28px; font-weight: 700; }
+      .note { font-size: 18px; fill: #5c5c5c; }
+      .number { font-size: 17px; fill: #737373; text-anchor: middle; }
+      .name { font-size: 18px; font-weight: 700; text-anchor: middle; }
+      .detail { font-size: 16px; fill: #5c5c5c; text-anchor: middle; }
+      .box { fill: #ffffff; stroke: #bdbdbd; stroke-width: 1; }
+      .line { fill: none; stroke: #737373; stroke-width: 1.5; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="960" height="244" fill="#ffffff"/>
+  <text x="32" y="43" class="title">Your steps</text>
+  <text x="928" y="42" class="note" text-anchor="end">Build locally · submit a PR</text>
+
+  <text x="100" y="92" class="number">01</text>
+  <rect x="28" y="112" width="144" height="96" rx="8" class="box"/>
+  <text x="100" y="151" class="name">Get setup pack</text>
+  <text x="100" y="180" class="detail">Portal + GitHub</text>
+
+  <text x="290" y="92" class="number">02</text>
+  <rect x="218" y="112" width="144" height="96" rx="8" class="box"/>
+  <text x="290" y="151" class="name">Run locally</text>
+  <text x="290" y="180" class="detail">Start the app</text>
+
+  <text x="480" y="92" class="number">03</text>
+  <rect x="408" y="112" width="144" height="96" rx="8" class="box"/>
+  <text x="480" y="151" class="name">Add features</text>
+  <text x="480" y="180" class="detail">Three actions</text>
+
+  <text x="670" y="92" class="number">04</text>
+  <rect x="598" y="112" width="144" height="96" rx="8" class="box"/>
+  <text x="670" y="151" class="name">Check work</text>
+  <text x="670" y="180" class="detail">Demo + test</text>
+
+  <text x="860" y="92" class="number">05</text>
+  <rect x="788" y="112" width="144" height="96" rx="8" class="box"/>
+  <text x="860" y="151" class="name">Open PR</text>
+  <text x="860" y="180" class="detail">Ready for review</text>
+
+  <path d="M182 160H208" class="line"/>
+  <path d="M372 160H398" class="line"/>
+  <path d="M562 160H588" class="line"/>
+  <path d="M752 160H778" class="line"/>
+</svg>
